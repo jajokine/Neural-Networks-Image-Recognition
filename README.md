@@ -3,14 +3,14 @@ MITx - MicroMasters Program on Statistics and Data Science - Machine Learning wi
 
 Third Project - Neural Network Classifier for Image Recognition
 
-The third project for the MIT MicroMasters Program course on Machine Learning with Python was built upon
-Neural Networks in order to build a network to classify images of digits using the famous MNIST (Mixed National
+The third project for the MIT MicroMasters Program course on Machine Learning with Python dealt with
+Neural Networks in order to build a network to classify images of single and double digits using the famous MNIST (Mixed National
 Institute of Standards and Technology) database.
 
 The MNIST database contains binary images of handwritten digits collected from among Census Bureau employees and high school students, and it is commonly used to train image processing systems. The database contains 60,000 training images and 10,000 testing images; All of which have been size-normalized and centered in a fixed size of 28 x 28 pixels.
 
-The project started from first creating a neural network from scrath, and then moving towards first implementing a more sophisticated deep neural network with PyTorch,
-and finishing off with convolutional networks with some  experiments on layer design and hyperparameter tuning. 
+The project started by first creating a neural network from scrath, and then moving towards single digit recognition by implementing more sophisticated deep neural networks with PyTorch, and convolutional networks with some experimenting with layer design and hyperparameter tuning, before finishing off with double digit
+recognition. 
 
 Additional helper functions were given to complete the project in two weeks of time.
 
