@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------------------------------------#
 #                             Neural Network - PyTorch (simple)                                #
 #                                                                                              #
-#           Hidden layer with 10 neurons whose activation function is ReLU,                    #
+#           Hidden layer with 128 neurons whose activation function is ReLU,                   #
 #               and an output layer of 10 neurons with Softmax activation                      #
 #                                                                                              #
 # ---------------------------------------------------------------------------------------------#
@@ -41,15 +41,15 @@ def main():
     y_train = [y_train[i] for i in permutation]
 
     # Split dataset into batches
-    batch_size = 32
+    batch_size = 32 # Set batch size
     train_batches = batchify_data(X_train, y_train, batch_size)
     dev_batches = batchify_data(X_dev, y_dev, batch_size)
     test_batches = batchify_data(X_test, y_test, batch_size)
 
     ## Model specification 
     model = nn.Sequential(
-            nn.Linear(784, 10),
-            nn.ReLU(),
+            nn.Linear(784, 128), 
+            nn.ReLU(),  # For LeakyReLU: nn.LeakyReLU(negative_slope=0.01)
             nn.Linear(10, 10),)
     lr=0.1  # Set learning rate
     momentum=0  # Set momentum
