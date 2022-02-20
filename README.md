@@ -30,4 +30,8 @@ between 0 and 1 (0 for black, 1 for white, and various shades of gray in-between
 
 **ACCESSING CODE**
 
-The different models are run each separetely from their files with the help of the three modules (train_utils.py, utils.py and utils_multiMNIST.py) that contain helper and utility functions. Neural_nets.py contains the basic model for the neural network while the other files - conv.py, mpl.py, nnet_cnn.py, and nnet_fc.py -  use PyTorch libraries. The dependencies and requirements can be seen from requirements.txt that can be installed in shell with the command pip install -r requirements.txt.
+The different models are run each separetely from their files with the help of the three modules (train_utils.py, utils.py and utils_multiMNIST.py) that contain helper and utility functions. Neural_nets.py contains the basic model for the neural network while the other files - conv.py, mpl.py, nnet_cnn.py, and nnet_fc.py -  use PyTorch libraries.
+
+The dependencies and requirements can be seen from requirements.txt that can be installed in shell with the command:
+
+      pip install -r requirements.txt
