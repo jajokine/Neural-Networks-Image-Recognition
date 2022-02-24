@@ -1,5 +1,6 @@
-# Neural-Networks-Image-Recognition
-MITx - MicroMasters Program on Statistics and Data Science - Machine Learning with Python
+## Neural-Networks-Image-Recognition
+
+# MITx - MicroMasters Program on Statistics and Data Science - Machine Learning with Python
 
 Third Project - Neural Network Classifier for Image Recognition
 
@@ -14,7 +15,7 @@ recognition.
 
 Additional helper functions were given to complete the project in two weeks of time.
 
-**DATASET**
+## Dataset
 
 The function call get_MNIST_data() returns the following Numpy arrays:
 
@@ -28,7 +29,7 @@ between 0 and 1 (0 for black, 1 for white, and various shades of gray in-between
 
 - test_y : The labels for the test data, formatted the same wat as the training data.
 
-**ACCESSING CODE**
+## Access and requirements
 
 The different models are run each separetely from their files with the help of the three modules (train_utils.py, utils.py and utils_multiMNIST.py) that contain helper and utility functions. Neural_nets.py contains the basic model for the neural network while the other files - conv.py, mpl.py, nnet_cnn.py, and nnet_fc.py -  use PyTorch libraries.
 
