@@ -13,8 +13,6 @@ The MNIST database contains binary images of handwritten digits collected from a
 The project started by first creating a neural network from scrath, and then moving towards single digit recognition by implementing more sophisticated deep neural networks with PyTorch, and convolutional networks with some experimenting with layer design and hyperparameter tuning, before finishing off with double digit
 recognition. 
 
-Additional helper functions were given to complete the project in two weeks of time.
-
 ## Dataset
 
 The function call get_MNIST_data() returns the following Numpy arrays:
